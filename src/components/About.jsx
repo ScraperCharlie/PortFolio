@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
@@ -9,18 +9,15 @@ const About = () => {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Akhil, a passionate Web developer with a keen eye for MERN
+          Hello, I'm Rishav, a passionate Web developer with a keen eye for MERN
           Stack . With a background in IT, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Education & Training
-        </h1>
+        <h1 className="text-green-600 font-semibold text-xl">Education</h1>
         <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+          [BE-TECH], [Konark Institute of Science and Technology], [2017-21]
+          [Computer Science]
         </span>
         <br />
         <br />
@@ -28,10 +25,9 @@ const About = () => {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
+          Proficient in [MERN Stack] Experienced with [ HTML | CSS | React |
+          Node | Express | Redux] Excellent problem-solving skills Effective
+          communicator and collaborator
         </span>
         <br />
         <br />
@@ -39,21 +35,23 @@ const About = () => {
           Professional Experience
         </h1>
         <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
+          SBI LIFE(Associate) [02-12-2024] <br /> * Analyzing applications and
+          other relevant information to assess the risk of default or loss
+          associated with a particular transaction. <br />
+          * Examining loan, mortgage, insurance, or investment applications to
+          gather information and assess the applicant's suitability.
+          <br />
+          * Approving, declining, or modifying applications based on the assessed
+          risk and company policies. <br />
+          * Setting premiums for insurance policies or interest rates for loans,
+          considering the assessed risk. <br />
+          * Ensuring that all underwriting decisions comply with relevant laws and
+          regulations.
+          <br />
+          * Maintaining accurate records of underwriting decisions and related
+          documentation.
         </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Achievements & Awards
-        </h1>
-        <span>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
-        </span>
+
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
@@ -61,7 +59,7 @@ const About = () => {
         </h1>
         <p>
           My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
+          innovative Software Development solutions that exceed client expectations and
           contribute positively to the digital landscape. I am committed to
           continuous learning and growth, always seeking new challenges and
           opportunities to expand my horizons.
@@ -69,6 +67,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;
